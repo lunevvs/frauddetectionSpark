@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fraudconfig>
+    <field>
+        <name>Id</name>
+        <type>Integer</type>
+    </field>
+    <field>
+        <name>Name</name>
+        <type>String</type>
+    </field>
+    <field>
+        <name>IsMin</name>
+        <type>Boolean</type>
+    </field>
+    <field>
+        <name>IsMax</name>
+        <type>Boolean</type>
+    </field>
+    <field>
+        <name>C</name>
+        <type>Char</type>
+    </field>
+</fraudconfig>

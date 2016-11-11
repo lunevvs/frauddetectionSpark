@@ -1,0 +1,4 @@
+"Id","Abbreviation","Name","Description","IsMax"
+1,"AE","Absolute Error","Total sum of absolute value of each individual error.",False
+2,"RMSE","Root Mean Squared Error","Square root of the average of the squared errors.",False
+3,"MCE","Mean Consequential Error","Averages consequential error (i.e. if prediction isn't exact, the error is 1, otherwise 0). Only useful when predicting things exactly.",True

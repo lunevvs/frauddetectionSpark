@@ -1,0 +1,3 @@
+Для работы метода SentenceDetection необходимо иметь в этой папке файл ruscorpora.model.bin
+
+Загрузить его можно с данного сайта http://ling.go.mail.ru/dsm/en/about

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fraudconfig>
+    <group method="Quantile">
+        <field>
+            <xpath_name>Transaction</xpath_name>
+            <type>Float</type>
+        </field>
+        <field>
+            <xpath_name>Date</xpath_name>
+            <type>Date</type>
+        </field>
+    </group>
+    <group method="Average">
+        <field>
+            <xpath_name>Transaction</xpath_name>
+            <type>Float</type>
+        </field>
+    </group>
+    <values method="Default">
+        <field>
+            <xpath_name>Id</xpath_name>
+            <type>Integer</type>
+        </field>
+        <field>
+            <xpath_name>Description</xpath_name>
+            <type>String</type>
+        </field>
+    </values>
+</fraudconfig>

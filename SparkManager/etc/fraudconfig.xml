@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fraudconfig>
+    <group method="Sentence">
+        <field>
+            <xpath_name>anamnesis</xpath_name>
+            <type>String</type>
+        </field>
+    </group>
+
+    <group method="KMeans">
+        <field>
+            <xpath_name>potion</xpath_name>
+            <type>Double</type>
+        </field>
+
+        <field>
+            <xpath_name>timesPerDay</xpath_name>
+            <type>Double</type>
+        </field>
+    </group>
+</fraudconfig>

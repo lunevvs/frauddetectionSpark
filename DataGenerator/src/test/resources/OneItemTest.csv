@@ -1,0 +1,2 @@
+"Id","Abbreviation","Name","Description","IsMax"
+1,"AE","Absolute Error","Total sum of absolute value of each individual error.",False

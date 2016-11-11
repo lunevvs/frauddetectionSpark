@@ -1,0 +1,13 @@
+<record>
+    <first_name>Anderson</first_name>
+    <age>37</age>
+    <weight>71</weight>
+    <desease>Psychosis</desease>
+    <medicine>Olas</medicine>
+    <potion>30</potion>
+    <timesPerDay>4</timesPerDay>
+    <pressure>150</pressure>
+    <med_next>1</med_next>
+    <med_last>0</med_last>
+    <description>Новый поступивший больной</description>
+</record>

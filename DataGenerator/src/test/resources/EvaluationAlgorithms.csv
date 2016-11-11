@@ -1,0 +1,36 @@
+"Id","Abbreviation","Name","Description","IsMax"
+1,"AE","Absolute Error","Total sum of absolute value of each individual error.",False
+2,"RMSE","Root Mean Squared Error","Square root of the average of the squared errors.",False
+3,"MCE","Mean Consequential Error","Averages consequential error (i.e. if prediction isn't exact, the error is 1, otherwise 0). Only useful when predicting things exactly.",True
+5,"AUC","Area Under Receiver Operating Characteristic Curve","Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",True
+6,"MAE","Mean Absolute Error","Average of the absolute value of each individual error.",False
+8,"RMSLE","Root Mean Squared Logarithmic Error","Square root of the average of the squared natural logarithm (plus one) error. Useful when it's more important to accurately predict lower magnitude values rather than precisely predicting higher magnitude values.",False
+9,"Gini","Gini Index","Area between the null hypothesis and actual value when ordered by predicted value",True
+10,"NormalizedGini","Normalized Gini Index","Gini value of predicted values divided by Gini of perfect values",True
+14,"CategorizationAccuracy","Categorization Accuracy","Percentage of correctly categorized items",True
+15,"LevenshteinMean","Levenshtein Mean","Averages the Levenshtein edit distance of strings",False
+20,"SMAPE","SMAPE","Symmetric Mean Absolute Percentage Error",False
+21,"QuadraticWeightedKappa","QuadraticWeightedKappa","Quadratic Weighted Kappa",True
+23,"WMAE","Weighted Mean Absolute Error","Weighted average of the absolute value of each individual error.",False
+24,"MCRMSE","Mean Columnwise Root Mean Squared Error","Average of the RMSE of each column.",False
+25,"LogLoss","Log Loss","Log Loss",False
+28,"MeanFScore","Mean F-Score","Used for categorization when there are many categories per row, Mean F-score across the rows.",True
+30,"MulticlassLoss","Multiclass Loss","Negative log likelihood divided by the number of observations--solution is true category label (0 to n-1), submission is columns where Jth row is pred. prob. of J. Normalizes submission rows so sum is 1.",False
+32,"NWMAE","Normalized Weighted Mean Absolute Error","Normalized weighted average of the absolute value of each individual error.",False
+33,"MAP@3","MAP@3","Mean average precision @ 3 for the top recommended items.",True
+40,"MCAP","MCAP","Mean average precision across columns",True
+228,"AverageAmongTopP","AverageAmongTop{P}","Average value of response within top p percentage of observations, by group",True
+232,"CorrelationCoefficient","CorrelationCoefficient","Used for continuous predictions to measure the quality of a least squares fit to data.",True
+233,"WRMSE","Weighted Root Mean Squared Error","Square root of the weighted average of the squared errors.",False
+244,"AP@{K}","","Average Precision at K",True
+247,"F_{Beta}","FScoreBeta","Effectiveness of binary predictions (0 or 1 only), with β times as much importance to Recall as Precision",True
+250,"MAP@{K}","","Mean Average Precision at K",True
+251,"NDCG@{K}","","Normalized Discounted Cumulative Gain at K documents",True
+265,"MCAUC","Mean Columnwise Area Under Receiver Operating Characteristic Curve","Measures discrimination. Calculates how well an algorithm separates true positives from false positives. Overall good metric for classification problems. Has range [0.5, 1.0]",True
+275,"NormalizedWeightedGini","Weighted Gini","Weighted area between the null hypothesis and actual value when ordered by predicted value",True
+281,"CRPS","Continuous Rank Probability Score","Continuous Ranked Probability Score",False
+283,"AHD@{Type}","Averaged Haversine Distance","Averaged Haversine Distance",False
+285,"MeanFScoreBeta","Mean F-Score Beta","Used for categorization when there are many categories per row, Mean F-score across the rows.",True
+289,"RootMeanSquarePercentageError","Root Mean Square Percentage Error","Square root of the average of the squared percent errors.",False
+291,"MSE","Mean Squared Error","The average of the squared errors.",False
+294,"MASpearmanR","","Mean Average Spearman's r (rank correlation  coefficient)",True

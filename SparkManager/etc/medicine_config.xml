@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fraudconfig>
+    <group method="Sentence">
+        <field>
+                <xpath_name>desease</xpath_name>
+                <type>String</type>
+        </field>
+        <group method="Sentence">
+            <field>
+                <xpath_name>medicine</xpath_name>
+                <type>String</type>
+            </field>
+            <group method="KMeans">
+                <field>
+                    <xpath_name>dosage</xpath_name>
+                    <type>Integer</type>
+                </field>
+                <field>
+                    <xpath_name>times</xpath_name>
+                    <type>Integer</type>
+                </field>
+            </group>
+        </group>
+    </group>
+</fraudconfig>

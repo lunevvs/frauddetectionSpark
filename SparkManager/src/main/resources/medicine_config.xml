@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fraudconfig>
+    <group method="KMeans">
+        <field>
+            <xpath_name>age</xpath_name>
+            <type>Integer</type>
+        </field>
+
+        <field>
+            <xpath_name>weight</xpath_name>
+            <type>Float</type>
+        </field>
+
+        <field>
+            <xpath_name>pressure</xpath_name>
+            <type>Integer</type>
+        </field>
+
+        <field>
+            <xpath_name>pulse</xpath_name>
+            <type>Integer</type>
+        </field>
+    </group>
+
+    <group method="Sentence">
+        <field>
+            <xpath_name>anamnesis</xpath_name>
+            <type>String</type>
+        </field>
+    </group>
+</fraudconfig>
